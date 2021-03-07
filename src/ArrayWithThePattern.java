@@ -11,7 +11,7 @@ public class ArrayWithThePattern {
         int count = 0;
 
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= count; j++) {
+            for (int j = 1; j <= i; j++) {
                 storage[count++] = j;
 
             }
